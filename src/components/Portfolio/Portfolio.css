@@ -1,0 +1,9 @@
+.img-container img {
+  transition: transform 5s ease;
+}
+
+.img-container:hover img {
+  /* transform: translateY(-80%); */
+  transform: translateY(calc(-100% + 8rem));
+
+}

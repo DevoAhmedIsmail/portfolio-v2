@@ -1,0 +1,58 @@
+/* .bg-photo {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(./images/photo.jpg) center center no-repeat;
+    background-size: cover;
+    height: 150px;
+} */
+
+header {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2616%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient2617)'%3e%3c/rect%3e%3cpath d='M0 0L307.44 0L0 230.98z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M0 230.98L307.44 0L889.26 0L0 301.15z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M0 301.15L889.26 0L1138.04 0L0 355.09z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M0 355.09L1138.04 0L1215.71 0L0 443.09999999999997z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M1440 560L810.64 560L1440 374.39z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M1440 374.39L810.64 560L697.71 560L1440 370.03z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M1440 370.03L697.71 560L570.78 560L1440 176.64999999999998z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M1440 176.64999999999998L570.78 560L480.84 560L1440 170.17z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2616'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='139.29%25' x2='84.72%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2617'%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 0.59)' offset='0.11'%3e%3c/stop%3e%3cstop stop-color='rgba(46%2c 67%2c 74%2c 0.21)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-position: center;
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1033%26quot%3b)' fill='none'%3e%3cpath d='M974.2984707406315 144.596411929261L1052.0062155513967 109.9986948688728 961.2557675554318 10.73593618291909z' fill='rgba(255%2c 136%2c 51%2c 0.49)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1179.4645570979485-55.770448863608294L1113.8483760071347 57.88011058432167 1227.4989354550646 123.49629167513558 1293.1151165458784 9.845732227205616z' fill='rgba(255%2c 136%2c 51%2c 0.49)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M330.353%2c200.989C372.469%2c199.603%2c410.301%2c175.629%2c430.467%2c138.628C449.797%2c103.16%2c447.333%2c59.901%2c425.909%2c25.657C405.726%2c-6.604%2c368.394%2c-20.419%2c330.353%2c-21.397C290.154%2c-22.43%2c248.321%2c-12.86%2c225.894%2c20.517C200.919%2c57.686%2c195.7%2c106.861%2c218.132%2c145.617C240.528%2c184.31%2c285.67%2c202.46%2c330.353%2c200.989' fill='rgba(255%2c 136%2c 51%2c 0.49)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M794.978%2c581.777C816.841%2c581.484%2c836.07%2c568.888%2c847.392%2c550.183C859.176%2c530.715%2c863.347%2c506.715%2c852.53%2c486.693C841.219%2c465.757%2c818.77%2c453.625%2c794.978%2c453.164C770.326%2c452.686%2c745.436%2c462.85%2c733.427%2c484.385C721.67%2c505.466%2c727.175%2c531.217%2c740.071%2c551.622C752.027%2c570.541%2c772.6%2c582.077%2c794.978%2c581.777' fill='rgba(255%2c 136%2c 51%2c 0.49)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M991.78 289.35 a120.9 120.9 0 1 0 241.8 0 a120.9 120.9 0 1 0 -241.8 0z' fill='rgba(255%2c 136%2c 51%2c 0.49)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1033'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scroll {
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  animation: down 1.5s infinite;
+  -webkit-animation: down 1.5s infinite;
+}
+
+.scroll::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  width: 18px;
+  height: 18px;
+  border-left: 2px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+  transform: rotate(-45deg);
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
