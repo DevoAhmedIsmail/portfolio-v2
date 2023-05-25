@@ -54,6 +54,11 @@ const PortfolioData = [
     image: "./images/projects/gusto.png",
     url: "https://devoahmedismail.github.io/Gusto/",
   },
+  {
+    name: "portfolio",
+    image: "./images/projects/hamed-portoflio.png",
+    url: "https://ahmed-hamed-profile.netlify.app/"
+  }
 ];
 
 export default PortfolioData;

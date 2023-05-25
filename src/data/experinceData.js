@@ -2,8 +2,14 @@ const experienceData = [
   {
     text: "Frontend Developer",
     date: "2023-Present",
-    details: "Full Time Frontend Developer working with React .",
+    details: "Full Time Frontend Developer working with React",
     title: "Thrivance",
+  },
+  {
+    text: "Intership Frontend",
+    date: "2023",
+    details: "Collaborate with a team and significantly enhance my expertise in React",
+    title: "Arabic Localizer",
   },
   {
     text: "Freelancer",

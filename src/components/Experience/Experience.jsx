@@ -14,7 +14,7 @@ const Experience = () => {
           <p>Experience</p>
         </div>
 
-        <div className="mt-8">
+        <div className="mt-8 relative z-10">
           <div className="flex flex-col md:grid grid-cols-9">
             {experienceData.map((data, index) =>
               index % 2 === 0 ? (
