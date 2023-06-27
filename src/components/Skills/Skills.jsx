@@ -28,6 +28,10 @@ const Skills = () => {
       image: "./images/skills/science.png",
     },
     {
+      name: "Next js",
+      image: "./images/skills/next.png",
+    },
+    {
       name: "Redux js",
       image: "./images/skills/redux.svg",
     },

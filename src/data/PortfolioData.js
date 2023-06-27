@@ -1,5 +1,10 @@
 const PortfolioData = [
   {
+    name: "Cheeks",
+    image: "./images/projects/cheecks.png",
+    url: "https://cheeks.vercel.app/"
+  },
+  {
     name: "Tuwaiq",
     image: "./images/projects/twieaq.png",
     url: "https://twieaq.com/",
@@ -10,9 +15,19 @@ const PortfolioData = [
     url: "",
   },
   {
+    name: "portfolio",
+    image: "./images/projects/hamed-portoflio.png",
+    url: "https://ahmed-hamed-profile.netlify.app/"
+  },
+  {
     name: "Eco-Shop",
     image: "./images/projects/ecoShop.png",
     url: "https://drive.google.com/file/d/16QdQUkfs_6VqxkcTx9PkA93TEgqjHrJk/view?usp=share_link",
+  },
+  {
+    name: "shop style",
+    image: "./images/projects/shopStyle.png",
+    url: "https://shopStyle.vercel.app/"
   },
   {
     name: "Mftc Training",
@@ -29,6 +44,7 @@ const PortfolioData = [
     image: "./images/projects/Movies.png",
     url: "https://devoahmedismail.github.io/moviesReview/index.html",
   },
+  
   {
     name: "Real Home",
     image: "./images/projects/realHome.png",
@@ -49,16 +65,14 @@ const PortfolioData = [
     image: "./images/projects/Bondi.png",
     url: "https://devoahmedismail.github.io/Bondi/",
   },
-  {
-    name: "Gusto",
-    image: "./images/projects/gusto.png",
-    url: "https://devoahmedismail.github.io/Gusto/",
-  },
-  {
-    name: "portfolio",
-    image: "./images/projects/hamed-portoflio.png",
-    url: "https://ahmed-hamed-profile.netlify.app/"
-  }
+  // {
+  //   name: "Gusto",
+  //   image: "./images/projects/gusto.png",
+  //   url: "https://devoahmedismail.github.io/Gusto/",
+  // },
+  
+  
+  
 ];
 
 export default PortfolioData;
