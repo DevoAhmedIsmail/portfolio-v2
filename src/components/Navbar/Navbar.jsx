@@ -19,7 +19,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           </Link>
           <div className="flex items-center">
             <a
-              href="https://drive.google.com/file/d/141hGO34w4kh1IJXIeBuVhtiWiq7ezLZ4/view?usp=share_link"
+              href="https://drive.google.com/file/d/1fTuJpYZqBvIr4d0Nrq8trfSMTwkfDmeH/view?usp=sharing"
               className="flex items-center gap-2 text-white bg-[color:var(--primary)] rounded-full px-3 py-2 mr-3 "
               target="_blank"
               download
