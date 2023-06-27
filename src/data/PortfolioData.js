@@ -5,6 +5,11 @@ const PortfolioData = [
     url: "https://cheeks.vercel.app/"
   },
   {
+    name: "Misr",
+    image: "./images/projects/misr.png",
+    url: "",
+  },
+  {
     name: "Tuwaiq",
     image: "./images/projects/twieaq.png",
     url: "https://twieaq.com/",
